@@ -102,7 +102,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 // Definitions for keypad
 const byte ROWS = 5;  // 5 rows
 const byte COLS = 4;  // 4 columns
-/*  
+/*
 // Names on keys not needed, but here for reference
 char* keyName[] = {
             "F1",  "F2", "#", "*",
